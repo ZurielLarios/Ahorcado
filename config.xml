@@ -27,7 +27,7 @@
    <!-- Plugins -->  
    <!-- Core plugins -->  
 
-   <gap:plugin name="org.apache.cordova.splashscreen" />  
+   <plugin name="org.apache.cordova.contacts" spec="0.2.16" source="npm" /> 
    <gap:plugin name="org.apache.cordova.vibration" /> 
    <gap:plugin name="org.apache.cordova.dialogs" />
  
@@ -35,18 +35,18 @@
    <!-- Third party plugins -->
    
    <!-- Define los iconos de la aplicacion para cada plataforma -->  
-   <icon src="icon.png" />  
-   <icon src="res/icon/android/icon-36-ldpi.png"  gap:platform="android"  gap:qualifier="ldpi" />  
-   <icon src="res/icon/android/icon-48-mdpi.png"  gap:platform="android"  gap:qualifier="mdpi" />  
-   <icon src="res/icon/android/icon-72-hdpi.png"  gap:platform="android"  gap:qualifier="hdpi" />  
-   <icon src="res/icon/android/icon-96-xhdpi.png" gap:platform="android"  gap:qualifier="xhdpi" />  
+   <icon src="images/icon.ico" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="ldpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="mdpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="hdpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="xhdpi" />  
 
    <!-- Define la pantalla de splash para cada plataforma -->  
    <gap:splash src="splash/splash.html" />
-   <gap:splash src="res/screen/android/screen-ldpi-portrait.png"    gap:platform="android" gap:qualifier="port-ldpi" />  
-   <gap:splash src="res/screen/android/screen-mdpi-portrait.png"    gap:platform="android" gap:qualifier="port-mdpi" />  
-   <gap:splash src="res/screen/android/screen-hdpi-portrait.png"    gap:platform="android" gap:qualifier="port-hdpi" />  
-   <gap:splash src="res/screen/android/screen-xhdpi-portrait.png"   gap:platform="android" gap:qualifier="port-xhdpi" />  
+   <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-ldpi" />  
+   <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-mdpi" />  
+   <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-hdpi" />  
+   <gap:splash src="splash/splash.html"   gap:platform="android" gap:qualifier="port-xhdpi" />  
 
    
  </widget>

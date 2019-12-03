@@ -5,10 +5,10 @@
      id    = "com.phonegap.fitpath"  
      version  = "1.0.0">  
 	 
-   <name> Fitpath Admin </name>  
+   <name> Ahorcado </name>  
    
    <description>  
-     Administra los comentarios mostrados en el sitio web
+     Juego del ahorcado
    </description>  
    
    <author href="https://build.phonegap.com" email="zurielkyriat@gmail.com">  
@@ -25,28 +25,28 @@
    <preference name="SplashScreenDelay" 	value="1000"/>
 
    <!-- Plugins -->  
-   <!-- Core plugins -->  
+   <!-- Core plugins 
 
    <plugin name="org.apache.cordova.contacts" spec="0.2.16" source="npm" /> 
    <gap:plugin name="org.apache.cordova.vibration" /> 
-   <gap:plugin name="org.apache.cordova.dialogs" />
+   <gap:plugin name="org.apache.cordova.dialogs" /> -->
  
 
    <!-- Third party plugins -->
    
-   <!-- Define los iconos de la aplicacion para cada plataforma -->  
+   <!-- Define los iconos de la aplicacion para cada plataforma   
    <icon src="images/icon.ico" />  
    <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="ldpi" />  
    <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="mdpi" />  
    <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="hdpi" />  
-   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="xhdpi" />  
+   <icon src="images/icon.ico"  gap:platform="android"  gap:qualifier="xhdpi" />  -->
 
    <!-- Define la pantalla de splash para cada plataforma -->  
-   <gap:splash src="splash/splash.html" />
+ <!--  <gap:splash src="splash/splash.html" />
    <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-ldpi" />  
    <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-mdpi" />  
    <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-hdpi" />  
-   <gap:splash src="splash/splash.html"   gap:platform="android" gap:qualifier="port-xhdpi" />  
+   <gap:splash src="splash/splash.html"   gap:platform="android" gap:qualifier="port-xhdpi" />  -->
 
    
  </widget>

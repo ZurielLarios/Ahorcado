@@ -47,7 +47,7 @@
    <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-mdpi" />  
    <gap:splash src="splash/splash.html"    gap:platform="android" gap:qualifier="port-hdpi" />  
    <gap:splash src="splash/splash.html"   gap:platform="android" gap:qualifier="port-xhdpi" />  -->
-   <icon src="images/f.ico"/>
+   <icon src="images/f.png"/>
 
    
  </widget>
